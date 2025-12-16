@@ -8,6 +8,6 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 3
-      - run: git log --pretty==oneline
+      - run: git log --pretty=oneline
           
       
